@@ -1,10 +1,12 @@
 <h1 align="center">Hi 👋, I'm Ruan de Villiers</h1>
-<h3 align="center">A passionate frontend developer from South Africa</h3>
+<h3 align="center">Currently I am working on a BPMN project for <a href='https://www.nintex.com/'>Nintex</a></h3>
 
+<h3>According to github this is my trophies</h3>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ruandv" alt="ruandv" /></a> </p> 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+I enjoy working on new projects and to contribute on any of the projects that I use myself. Recently I added the loadshedding extension to the <a href='https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en'>CaretTab</a> chrome extension.
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
