@@ -35,5 +35,5 @@ jobs:
         ]}' \
         https://api.lokalise.com/api2/projects/${{ env.LOKALISE_PROJECT_ID }}/files/download
       env:
-        LOKALISE_PROJECT_ID: ${{ secrets.LOKALISE_PROJECT_ID }}
-        LOKALISE_API_TOKEN: ${{ secrets.LOKALISE_API_TOKEN }}
+        LOKALISE_PROJECT_ID: 5819839665c325a2af9ab2.19829574
+        LOKALISE_API_TOKEN: 5e86a1b0e369a745c1f82b72360b8dfa9ad29ced
