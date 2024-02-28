@@ -3,7 +3,7 @@ name: Get latest translation files
 on:
   schedule:
     - cron: '0 9 * * fri'
-
+  # Cron expression generator by Cronhub https://crontab.cronhub.io/
   # allows to manually run the job at any time
   workflow_dispatch:
 
