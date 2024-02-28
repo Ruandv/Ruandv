@@ -1,0 +1,39 @@
+# This GitHub Action checks if a pull request targeting the master branch
+# has one of the specified "DO NOT MERGE" labels, and if it does,
+# it will block the merge by failing the action
+
+name: Get latest translation files
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+  # allows to manually run the job at any time
+  workflow_dispatch:
+
+jobs:
+  makeRequest:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Make request to external URI
+      run: |
+        curl -X POST \
+        -H "X-Api-Token: ${{ env.LOKALISE_API_TOKEN }}" \
+        -H "accept: application/json" \
+        -H "content-type: application/json" \
+        -d '{
+          "format": "json",
+          "filter_data": ["translated","reviewed","verified"],
+          "filter_langs": ["fr","de","es"],
+          "filter_repositories":["NintexGlobal/pi-processmodeler/tree/lokalise/test1/packages/pi-bpmn-canvas:lokalise/test1"],
+          "directory_prefix": "",
+          "original_filenames": true,
+          "commit_message": "fix: updated languages via api call",
+          "triggers": [
+          "github"
+        ]}' \
+        https://api.lokalise.com/api2/projects/${{ env.LOKALISE_PROJECT_ID }}/files/download
+      env:
+        LOKALISE_PROJECT_ID: ${{ secrets.LOKALISE_PROJECT_ID }}
+        LOKALISE_API_TOKEN: ${{ secrets.LOKALISE_API_TOKEN }}
