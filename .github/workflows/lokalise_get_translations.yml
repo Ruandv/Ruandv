@@ -19,7 +19,7 @@ jobs:
     - name: Make request to external URI
       run: |
         curl -X POST \
-        -H "X-Api-Token: ${{ env.LOKALISE_API_TOKEN }}" \
+        -H "X-Api-Token: 5e86a1b0e369a745c1f82b72360b8dfa9ad29ced" \
         -H "accept: application/json" \
         -H "content-type: application/json" \
         -d '{
@@ -33,7 +33,4 @@ jobs:
           "triggers": [
           "github"
         ]}' \
-        https://api.lokalise.com/api2/projects/${{ env.LOKALISE_PROJECT_ID }}/files/download
-      env:
-        LOKALISE_PROJECT_ID: 5819839665c325a2af9ab2.19829574
-        LOKALISE_API_TOKEN: 5e86a1b0e369a745c1f82b72360b8dfa9ad29ced
+        https://api.lokalise.com/api2/projects/5819839665c325a2af9ab2.19829574/files/download
