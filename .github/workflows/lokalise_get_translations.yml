@@ -6,7 +6,7 @@ name: Get latest translation files
 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '0 9 * * fri'
 
   # allows to manually run the job at any time
   workflow_dispatch:
