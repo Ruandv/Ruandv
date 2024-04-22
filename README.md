@@ -6,7 +6,10 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-I enjoy working on new projects and to contribute on any of the projects that I use myself. Recently I added the loadshedding extension to the <a href='https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en'>CaretTab</a> chrome extension.
+I enjoy working on new projects and to contribute on any of the projects that I use myself. 
+Recently I contributed to the following repositories: 
+<div><a href='https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en'>CaretTab</a>: added the loadshedding extension for South Africa and <a href='https://github.com/bluecaret/carettab/pulls?q=is%3Apr+author%3ARuandv+'>various other PR's</a></div>
+<div><a href='https://www.planfree.dev/#/'>planfree.dev</a> : Added <a href='https://github.com/LukeGarrigan/planfree.dev/pulls?q=is%3Apr+author%3ARuandv+'>various pr's</a></div>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
