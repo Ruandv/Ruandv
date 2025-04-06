@@ -32,73 +32,75 @@
 ---
 
 <h3 align="left">Languages I Use Daily</h3>
-<p align="left">
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+<div align="left">
+  
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript" style="max-width: 100%;">
   </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript" style="max-width: 100%;">
   </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp" style="max-width: 100%;">
   </a>
-</p>
+</div>
 
 ---
 
 <h3 align="left">Technologies I Use</h3>
-<p align="left">
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
+<div align="left">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=androidstudio" height="40" alt="android" style="max-width: 100%;">
   </a>
-  <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure" style="max-width: 100%;">
   </a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap" style="max-width: 100%;">
   </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3" style="max-width: 100%;">
   </a>
-  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dotnet" style="max-width: 100%;">
   </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma" style="max-width: 100%;">
   </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase" style="max-width: 100%;">
   </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git" height="40" alt="git" style="max-width: 100%;">
   </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5" style="max-width: 100%;">
   </a>
-  <a href="https://mochajs.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mocha" height="40" alt="mocha" style="max-width: 100%;">
   </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mssql" height="40" alt="mssql" style="max-width: 100%;">
   </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs" style="max-width: 100%;">
   </a>
-  <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rabbitmq" height="40" alt="rabbitmq" style="max-width: 100%;">
   </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react" height="40" alt="react" style="max-width: 100%;">
   </a>
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=sass" height="40" alt="sass" style="max-width: 100%;">
   </a>
-</p>
+</div>
 
 ---
 
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ruandv&" alt="ruandv" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruandv&" alt="ruandv" />
 </p>
 
 <picture>
