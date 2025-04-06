@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ruan de Villiers</h1>
-<h3 align="center">Currently I am working on a BPMN project for <a href="https://www.nintex.com/">Nintex</a></h3>
+<h3 align="center">Currently I am working on the `Generate from prompt` project for <a href="https://www.nintex.com/">Nintex</a></h3>
 
 ---
 
