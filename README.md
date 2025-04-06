@@ -50,51 +50,23 @@
 
 <h3 align="left">Technologies I Use</h3>
 <div align="left">
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=androidstudio" height="40" alt="android" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dotnet" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure" style="max-width: 100%;">
+    <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="githubactions" style="max-width: 100%;">
+    <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3" style="max-width: 100%;">
+    <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dotnet" style="max-width: 100%;">
     <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git" height="40" alt="git" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mocha" height="40" alt="mocha" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mssql" height="40" alt="mssql" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker" height="40" alt="mocha" style="max-width: 100%;">
+    <img src="https://skillicons.dev/icons?i=github" height="40" alt="mssql" style="max-width: 100%;">
     <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=npm" height="40" alt="npm" style="max-width: 100%;">
+    <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode" style="max-width: 100%;">
     <img src="https://skillicons.dev/icons?i=rabbitmq" height="40" alt="rabbitmq" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react" height="40" alt="react" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=sass" height="40" alt="sass" style="max-width: 100%;">
-  </a>
 </div>
 
 ---
