@@ -1,0 +1,249 @@
+{
+    "otmVersion": "0.1.0",
+    "project": {
+        "name": "PMP Telemetry System",
+        "id": "pmp-telemetry-system",
+        "description": "Telemetry system for collecting, processing, and analyzing Promapp data",
+        "owner": "Nintex",
+        "assets": [
+            {
+                "id": "telemetry-data",
+                "name": "Telemetry Data",
+                "description": "Customer telemetry and usage data",
+                "risk": "High",
+                "attributes": ["confidential", "integrity-critical"]
+            },
+            {
+                "id": "promapp-data",
+                "name": "Promapp Database Data",
+                "description": "Customer health index and process data",
+                "risk": "High",
+                "attributes": ["confidential", "integrity-critical"]
+            }
+        ],
+        "components": [
+            {
+                "id": "save-telemetry-func",
+                "name": "SaveTelemetryData Function",
+                "type": "azure-function",
+                "description": "Entry point for telemetry data processing",
+                "assets": ["telemetry-data"],
+                "trust_zones": ["azure-function-zone"]
+            },
+            {
+                "id": "aggregation-func",
+                "name": "AggregationProcessingFunction",
+                "type": "azure-function",
+                "description": "Aggregates telemetry data on schedule",
+                "assets": ["telemetry-data"],
+                "trust_zones": ["azure-function-zone"]
+            },
+            {
+                "id": "promapp-aggregation-func",
+                "name": "PromappAggregationFunction",
+                "type": "azure-function",
+                "description": "Collects data from Promapp databases",
+                "assets": ["promapp-data"],
+                "trust_zones": ["azure-function-zone"]
+            },
+            {
+                "id": "processing-event-func",
+                "name": "ProcessingEventFunction",
+                "type": "azure-function",
+                "description": "Handles specific processing tasks",
+                "assets": ["telemetry-data"],
+                "trust_zones": ["azure-function-zone"]
+            },
+            {
+                "id": "service-bus",
+                "name": "Azure Service Bus",
+                "type": "message-queue",
+                "description": "Message queue for telemetry events",
+                "trust_zones": ["azure-platform"]
+            },
+            {
+                "id": "table-storage",
+                "name": "Azure Table Storage",
+                "type": "storage",
+                "description": "Storage for telemetry events and aggregations",
+                "trust_zones": ["azure-platform"]
+            },
+            {
+                "id": "data-lake",
+                "name": "Data Lake Storage",
+                "type": "storage",
+                "description": "Storage for processed data",
+                "trust_zones": ["azure-platform"]
+            },
+            {
+                "id": "promapp-db",
+                "name": "Promapp Databases",
+                "type": "database",
+                "description": "Source databases for customer data",
+                "trust_zones": ["database-zone"]
+            }
+        ],
+        "dataflows": [
+            {
+                "id": "telemetry-to-queue",
+                "name": "Telemetry Events to Queue",
+                "source": "external",
+                "destination": "service-bus",
+                "protocol": "https",
+                "data_assets": ["telemetry-data"],
+                "threats": [
+                    {
+                        "id": "injection-attack",
+                        "name": "Injection Attack",
+                        "description": "Malicious telemetry data injection",
+                        "mitigation": "Input validation, message signing, and authentication"
+                    },
+                    {
+                        "id": "mitm",
+                        "name": "Man in the Middle",
+                        "description": "Interception of telemetry data",
+                        "mitigation": "TLS encryption, mutual authentication"
+                    }
+                ]
+            },
+            {
+                "id": "queue-to-save",
+                "name": "Queue to SaveTelemetryData",
+                "source": "service-bus",
+                "destination": "save-telemetry-func",
+                "protocol": "internal",
+                "data_assets": ["telemetry-data"],
+                "threats": [
+                    {
+                        "id": "unauthorized-access",
+                        "name": "Unauthorized Queue Access",
+                        "description": "Unauthorized access to service bus queue",
+                        "mitigation": "SAS token authentication, managed identity"
+                    }
+                ]
+            },
+            {
+                "id": "save-to-storage",
+                "name": "Save to Table Storage",
+                "source": "save-telemetry-func",
+                "destination": "table-storage",
+                "protocol": "internal",
+                "data_assets": ["telemetry-data"],
+                "threats": [
+                    {
+                        "id": "data-leak",
+                        "name": "Data Leakage",
+                        "description": "Unauthorized data access in storage",
+                        "mitigation": "Encryption at rest, access controls, managed identity"
+                    }
+                ]
+            },
+            {
+                "id": "promapp-to-func",
+                "name": "Promapp DB to Function",
+                "source": "promapp-db",
+                "destination": "promapp-aggregation-func",
+                "protocol": "tds",
+                "data_assets": ["promapp-data"],
+                "threats": [
+                    {
+                        "id": "sql-injection",
+                        "name": "SQL Injection",
+                        "description": "SQL injection in database queries",
+                        "mitigation": "Parameterized queries, input validation"
+                    },
+                    {
+                        "id": "creds-exposure",
+                        "name": "Credential Exposure",
+                        "description": "Database credential exposure",
+                        "mitigation": "Use managed identities, secure credential storage"
+                    }
+                ]
+            }
+        ],
+        "trust_zones": [
+            {
+                "id": "azure-function-zone",
+                "name": "Azure Functions Environment",
+                "description": "Serverless compute environment",
+                "risk": "Medium"
+            },
+            {
+                "id": "azure-platform",
+                "name": "Azure Platform Services",
+                "description": "Core Azure services",
+                "risk": "Low"
+            },
+            {
+                "id": "database-zone",
+                "name": "Database Environment",
+                "description": "Database servers and services",
+                "risk": "High"
+            }
+        ]
+    },
+    "mitigations": [
+        {
+            "id": "encryption-in-transit",
+            "name": "Encryption in Transit",
+            "description": "All data flows must use TLS 1.2 or higher",
+            "riskReduction": "High"
+        },
+        {
+            "id": "encryption-at-rest",
+            "name": "Encryption at Rest",
+            "description": "All stored data must be encrypted",
+            "riskReduction": "High"
+        },
+        {
+            "id": "access-control",
+            "name": "Access Control",
+            "description": "Implement least privilege access using managed identities and RBAC",
+            "riskReduction": "High"
+        },
+        {
+            "id": "input-validation",
+            "name": "Input Validation",
+            "description": "Validate all inputs before processing",
+            "riskReduction": "Medium"
+        },
+        {
+            "id": "monitoring",
+            "name": "Security Monitoring",
+            "description": "Monitor and alert on suspicious activities",
+            "riskReduction": "Medium"
+        },
+        {
+            "id": "secure-configuration",
+            "name": "Secure Configuration",
+            "description": "Implement secure configuration for all components",
+            "riskReduction": "High"
+        }
+    ],
+    "security_requirements": [
+        {
+            "id": "data-protection",
+            "name": "Data Protection",
+            "description": "Protect sensitive customer data",
+            "mitigations": ["encryption-in-transit", "encryption-at-rest"]
+        },
+        {
+            "id": "authentication",
+            "name": "Authentication",
+            "description": "Authenticate all service-to-service communication",
+            "mitigations": ["access-control"]
+        },
+        {
+            "id": "authorization",
+            "name": "Authorization",
+            "description": "Enforce least privilege access",
+            "mitigations": ["access-control"]
+        },
+        {
+            "id": "monitoring-req",
+            "name": "Security Monitoring",
+            "description": "Monitor and detect security events",
+            "mitigations": ["monitoring"]
+        }
+    ]
+}
