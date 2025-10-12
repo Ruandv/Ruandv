@@ -18,14 +18,22 @@
   Recently I contributed to the following repositories:
   
   <div>
-    <a href="https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en">CaretTab</a>: 
-    Added the loadshedding extension for South Africa and 
+    <p>
+      <a href="https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en">CaretTab</a>: 
+      Added the loadshedding extension for South Africa
+    </p>
+    <p>
     <a href="https://github.com/bluecaret/carettab/pulls?q=is%3Apr+author%3ARuandv+">various other PR's</a>
+    </p>
   </div>
   
   <div>
     <a href="https://www.planfree.dev/#/">planfree.dev</a>: 
     Added <a href="https://github.com/LukeGarrigan/planfree.dev/pulls?q=is%3Apr+author%3ARuandv+">various PR's</a>
+  </div>
+   <div>
+    <a href="https://github.com/ShareX/ShareX">ShareX</a>: 
+    <a href="https://github.com/ShareX/ShareX/pulls?q=is%3Apr+author%3ARuandv+">various PR's</a>
   </div>
 </p>
 
