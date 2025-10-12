@@ -6,7 +6,13 @@
 
 ### 🚀 Currently Building
 
-I'm working on a very interesting project at [Nintex](https://www.nintex.com/), blending automation, creativity, and AI-agents.
+<div style="text-align: center;">
+  I'm working on a very interesting project at <a style="decoration: none;vertical-align: middle; text-align: center;" href="https://www.nintex.com/" target="_blank">
+    <img src="https://github.com/Ruandv/Ruandv/blob/master/images/nintex.png" height="16" alt="Nintex logo" />
+    Nintex
+  </a> — the possibility engine.
+</div>
+
 
 ---
 
