@@ -1,90 +1,78 @@
-<h1 align="center">Hi 👋, I'm Ruan de Villiers</h1>
-<h3 align="center">Currently I am working on the `Generate from prompt` project for <a href="https://www.nintex.com/">Nintex</a></h3>
-
----
-
-<h3 align="left">My GitHub Trophies</h3>
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ruandv" alt="ruandv" />
-  </a>
-</p>
-
----
-
-<h3 align="left">Connect with Me</h3>
-<p align="left">
-  I enjoy working on new projects and contributing to projects that I use myself.
-  Recently I contributed to the following repositories:
-  
-  <div>
-    <p>
-      <a href="https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en">CaretTab</a>: 
-      Added the loadshedding extension for South Africa
-    </p>
-    <p>
-    <a href="https://github.com/bluecaret/carettab/pulls?q=is%3Apr+author%3ARuandv+">various other PR's</a>
-    </p>
-  </div>
-  
-  <div>
-    <a href="https://www.planfree.dev/#/">planfree.dev</a>: 
-    Added <a href="https://github.com/LukeGarrigan/planfree.dev/pulls?q=is%3Apr+author%3ARuandv+">various PR's</a>
-  </div>
-   <div>
-    <a href="https://github.com/ShareX/ShareX">ShareX</a>: 
-    <a href="https://github.com/ShareX/ShareX/pulls?q=is%3Apr+author%3ARuandv+">various PR's</a>
-  </div>
-</p>
-
----
-
-<h3 align="left">Languages I Use Daily</h3>
-<div align="left">
-  
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript" style="max-width: 100%;">
-  </a>
-  
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript" style="max-width: 100%;">
-  </a>
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp" style="max-width: 100%;">
-  </a>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00B8D4&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Ruan+de+Villiers;Full+stack+Engineer;Open+Source+Contributor" alt="Typing SVG" />
 </div>
 
 ---
 
-<h3 align="left">Technologies I Use</h3>
-<div align="left">
-    <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dotnet" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="githubactions" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dotnet" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=git" height="40" alt="git" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=docker" height="40" alt="mocha" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=github" height="40" alt="mssql" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=npm" height="40" alt="npm" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=rabbitmq" height="40" alt="rabbitmq" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=react" height="40" alt="react" style="max-width: 100%;">
-    <img src="https://skillicons.dev/icons?i=sass" height="40" alt="sass" style="max-width: 100%;">
-</div>
+### 🚀 Currently Building
+
+I'm working on a very interesting project at [Nintex](https://www.nintex.com/), blending automation, creativity, and AI-agents.
 
 ---
+
+### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruandv&" alt="ruandv" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=ruandv&theme=algolia&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  </a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruandv/ruandv/output/github-contribution-grid-snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruandv/ruandv/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ruandv/ruandv/output/github-snake.svg" />
-</picture>
+---
+
+### 🤝 Connect & Collaborate
+
+I love contributing to tools I use and admire. Here are a few recent contributions:
+
+- [CaretTab](https://github.com/bluecaret/carettab/pulls?q=is%3Apr+author%3ARuandv+)
+- [planfree.dev](https://github.com/LukeGarrigan/planfree.dev/pulls?q=is%3Apr+author%3ARuandv+)
+- [ShareX](https://github.com/ShareX/ShareX/pulls?q=is%3Apr+author%3ARuandv+)
+
+Feel free to reach out if you're building something exciting or need help architecting automation workflows!
+
+---
+
+### 🧠 Languages & Frameworks I Use Daily
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs" height="40" />
+</p>
+
+---
+
+### 🛠️ Technologies I Work With
+
+<p>
+  <img src="https://skillicons.dev/icons?i=dotnet,azure,githubactions,css,figma,firebase,git,html,docker,github,npm,vscode,rabbitmq,sass" height="40" />
+</p>
+
+---
+
+### 🔥 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ruandv&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruandv/ruandv/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruandv/ruandv/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ruandv/ruandv/output/github-snake.svg" />
+  </picture>
+</p>
+
+---
+
+### 🌍 About Me
+
+I'm a **Senior Engineer** from South Africa 🇿🇦 with a passion for building tools that empower teams and streamline workflows. I thrive on solving complex problems with elegant, local-first solutions — whether it's browser automation or federated identity.
+
+I believe in encouraging creativity, sharing knowledge, and making it easy for others to collaborate. From open-source contributions to cross-cultural teamwork, I try to bring clarity, warmth, and precision to every project.
+
+---
+
+<!-- Footer -->
+<p align="center">
+  <em>“Encourage curiosity. Collaborate with ease. Engineer with purpose.”</em>
+</p>
